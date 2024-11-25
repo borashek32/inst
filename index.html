@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Institute</title>
+		<link rel="stylesheet" href="/assets/css/reset.css">
+		<link rel="stylesheet" href="/assets/css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<form action="send.php">
+				<div class="form__container" id="form">
+					<div class="form__bg">
+						<span class="form__bg__line-1"></span>
+						<span class="form__bg__line-2"></span>
+					</div>
+
+					<div class="form__content">
+						<h2 class="form__header">Ответьте на 4 вопроса и получите стоимость разработки пакета документов по персональным данным</h2>
+										
+						<div class="form__question question" data-question="1">
+							<h3 class="question__text">
+								1. Выберите вашу организационно правовую форму (1 вариант ответа):
+							</h3>
+							<div class="question__answers answers">
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">Юридическое лицо</label>
+								</div>
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">Муниципальный орган</label>
+								</div>
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">ИП</label>
+								</div>
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">Физическое лицо</label>
+								</div>
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">Государственный орган</label>
+								</div>
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">Иностранный гражданин</label>
+								</div>
+							</div>
+							<div class="question__navigation navigation">
+								<button type="button" class="navigation__count">Вопрос 1 из 4</button>
+								<button type="button" class="navigation__goto">Далее</button>
+							</div>
+						</div>
+
+						<div class="form__question question" data-question="2">
+							<h3 class="question__text">
+								2. Какие категории персональных данных вы обрабатываете (несколько вариантов ответа):
+							</h3>
+							<div class="question__answers answers">
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">биометрические</label>
+								</div>
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">специальные</label>
+								</div>
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">общедоступные</label>
+								</div>
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">иные</label>
+								</div>
+							</div>
+							<div class="question__navigation navigation">
+								<button type="button" class="navigation__count">Вопрос 2 из 4</button>
+								<button type="button" class="navigation__goto">Далее</button>
+							</div>
+						</div>
+
+						<div class="form__question question" data-question="3">
+							<h3 class="question__text">
+								3. персональные данные каких субъектов вы обрабатываете (несколько вариантов ответа):
+							</h3>
+							<div class="question__answers answers">
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">клиенты</label>
+								</div>
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">сотрудники</label>
+								</div>
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">контрагенты</label>
+								</div>
+							</div>
+							<div class="question__navigation navigation">
+								<button type="button" class="navigation__count">Вопрос 3 из 4</button>
+								<button type="button" class="navigation__goto">Далее</button>
+							</div>
+						</div>
+
+						<div class="form__question question" data-question="4">
+							<h3 class="question__text">
+								4. С каким объемом персональных данных вы работаете? (1 вариант ответа):
+							</h3>
+							<div class="question__answers answers">
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">менее 100 000</label>
+								</div>
+								<div class="answers__answer answer">
+									<input class="answer__checkbox" type="radio" />
+									<label class="answer__variant">более 100 000</label>
+								</div>
+							</div>
+							<div class="question__navigation navigation">
+								<button type="button" class="navigation__count">Вопрос 3 из 4</button>
+								<button type="button" class="navigation__goto">Далее</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form__container" id="contacts">
+					<div class="form__bg">
+						<span class="form__bg__line-1 form__bg__contacts-1"></span>
+						<span class="form__bg__line-2 form__bg__contacts-2"></span>
+					</div>
+					<div class="form__contacts contacts question">
+						<h3 class="contacts__header">Оставьте ваши контактные данные и мы рассчитаем стоимость пакета документов</h3>
+						<div class="contacts__form">
+							<div class="contacts__form-group form-group">
+								<label class="form-group__label" for="phone">Номер телефона</label>
+								<input class="form-group__input" id="phone" type="text" placeholder="+7 ххх хх хх" />
+							</div>
+							<div class="contacts__form-group form-group">
+								<label class="form-group__label" for="email">E-mail</label>
+								<input class="form-group__input" id="email" type="text" placeholder="example@mail.ru" />
+							</div>
+							<div class="contacts__form-group form-group required">
+								<p class="required__field">Обязательно отметьте поля ниже*</p>
+								<div class="required__check">
+									<input type="checkbox" id="required" class="required__checkbox" />
+									<label for="required" class="required__label">Нажимая кнопку "Cгенерировать текст сообщения", я соглашаюсь на обработку моих персональных данных в соотв. с ФЗ от 27.07.2006 №152-ФЗ на условиях и для целей, определенных Политикой конфиденциальности. *</label>
+								</div>
+							</div>
+							<div class="contacts__navigation navigation">
+								<button type="button" class="contacts__navigation__button" id="get-count">Рассчитать стоимость</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form__submit">
+					<p class="form__submit__text">Подобрать пакет документов</p>
+					<button class="form__submit__button contacts__navigation__button" type="submit">
+						Подобрать
+					</button>
+				</div>
+			</form>
+		</div>
+		<script src="/assets/js/script.js"></script>
+	</body>
+</html>
