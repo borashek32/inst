@@ -424,6 +424,10 @@ body {
 @media screen and (max-width: 460px) {
   .form__container {
     width: 300px;
-    padding-bottom: 70px;
+    padding-bottom: 120px;
+  }
+
+  .form__submit {
+    width: 220px;
   }
 }
